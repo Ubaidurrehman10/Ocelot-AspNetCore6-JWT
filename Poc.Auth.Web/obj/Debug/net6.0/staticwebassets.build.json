@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "C5g+JRXKjfXOQ7J05f1558dB3uQAQOexwCQNcu9t/Pw=",
+  "Source": "Poc.Auth.Web",
+  "BasePath": "_content/Poc.Auth.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

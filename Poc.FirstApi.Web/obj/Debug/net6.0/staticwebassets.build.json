@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LNBPYNAbM8AYVagX5e5er+5IsQ4bPCcz1c7KBwtf3q0=",
+  "Source": "Poc.FirstApi.Web",
+  "BasePath": "_content/Poc.FirstApi.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

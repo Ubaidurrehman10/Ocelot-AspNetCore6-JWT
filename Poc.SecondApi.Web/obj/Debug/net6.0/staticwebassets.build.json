@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xd8gHJ9LCc1NMjUR/ZLW75eRbZs2fIiM7gIRrzCfyWg=",
+  "Source": "Poc.SecondApi.Web",
+  "BasePath": "_content/Poc.SecondApi.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Poc.Auth.Web.props" />
+</Project>

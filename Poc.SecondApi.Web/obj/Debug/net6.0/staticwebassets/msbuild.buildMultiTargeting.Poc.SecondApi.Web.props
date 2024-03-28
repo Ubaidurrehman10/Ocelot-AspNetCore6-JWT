@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Poc.SecondApi.Web.props" />
+</Project>
