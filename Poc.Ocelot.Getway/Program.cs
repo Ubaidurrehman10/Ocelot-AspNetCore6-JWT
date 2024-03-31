@@ -15,15 +15,16 @@ builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
         config
             .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
             .AddJsonFile("appsettings.json", true, true)
-            .AddJsonFile("ocelot.json", false, true)
-            //.AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", true, true)
-            //.AddJsonFile($"ocelot.{hostingContext.HostingEnvironment.EnvironmentName}.json", optional: false, reloadOnChange: true)
-            .AddEnvironmentVariables();
+            .AddJsonFile("ocelot.json", false, true);
+        //.AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", true, true)
+        //.AddJsonFile($"ocelot.{hostingContext.HostingEnvironment.EnvironmentName}.json", optional: false, reloadOnChange: true)
+        //.AddEnvironmentVariables();
 
         //if (hostingContext.HostingEnvironment.EnvironmentName == "Development")
         //{
         //    config.AddJsonFile("appsettings.Local.json", true, true);
         //}
+        config.AddJsonFile("appsettings.json", true, true);
     })
     .UseSerilog((_, config) =>
     {
@@ -55,8 +56,8 @@ app.UseCors("CorsPolicy");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    //app.UseSwagger();
+    //app.UseSwaggerUI();
 }
 app.UseAuthentication();
 app.UseHttpsRedirection();

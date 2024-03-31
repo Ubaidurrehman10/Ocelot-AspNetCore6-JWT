@@ -14,9 +14,14 @@ namespace Poc.FirstApi.Web.Controllers
         {
             _logger = logger;
         }
-        [HttpGet]
+        [HttpGet("abc")]
         [Authorize]
         public IActionResult Get()
+        {
+            return Ok("its working");
+        }
+        [HttpGet("getall")]
+        public IActionResult GetAll() 
         {
             return Ok("its working");
         }
